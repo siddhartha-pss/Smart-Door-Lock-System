@@ -22,3 +22,12 @@ The objective of this project is to develop a secure and accessible control syst
 - **Raspberry Pi**  
 - **Connecting wires**
 
+## Working
+1. Once the connections are done, power on the Raspberry Pi board and compile the code to check for any errors.  
+2. After compilation, click the link that appears in the shell of the compiler. This will lead you to the login page.  
+3. Enter the password you set up.  
+   - If the correct password is entered, the servo motor will rotate, unlocking the mechanism, and **"SERVO UNLOCKED"** will appear on the screen.  
+   - If the wrong password is entered, the servo motor will remain in its current position, keeping the door locked, and **"INCORRECT PASSWORD"** will appear on the screen.  
+4. To lock the door again, a link is provided below the password input box. Once clicked, the servo motor rotates back to its original position.  
+
+
